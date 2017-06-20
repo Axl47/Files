@@ -1,0 +1,64 @@
+let age = 15;
+
+
+let bouncer = function(agePerson) {
+   
+   let minimumAge = 18;
+   let response = "";
+
+   if(agePerson > minimumAge ) {
+    response = "Adelante";
+} else {
+   response = "Fuera";
+}
+
+return response
+
+ 
+}
+
+;
+var ages = [45, 14, 43, 66, 77];
+
+
+
+ages.forEach( function (age) {
+console.log(age)
+console.log(bouncer(age));
+});
+
+console.log("----------");
+
+
+-------------------------------
+var bouncer = function( agesLine, bribe ){
+var minimumAge = 18;
+var agesIn = [];
+var agesOut = [];
+
+for (var i = 0; i < agesLine.length; i++) {
+  agesLine[i]
+  if (agesLine[i] >= minimumAge) {
+    agesIn.push(agesLine[i]);
+    console.log(agesIn);
+  } else {
+    if ( bribe > 0 ) {
+      agesIn.push(agesLine[i]);
+      console.log(agesIn);
+    } else {
+      agesOut.push(agesLine[i]);
+      console.log(agesOut);
+    }
+  }
+}
+
+var Lists = [agesIn, agesOut];
+
+return lists;
+
+
+}
+
+var ages = [18, 14, 11, 26]
+
+var result = bouncer (ages, 4)

@@ -1,0 +1,27 @@
+h1 {
+  color: ;
+  background-color: ;
+  margin-top: 90px;
+  margin-right: 150px;
+  margin-left: 0px;
+  font-style: italic;
+  font-size: 50px
+}
+p {
+  color: darkblue;
+  background-color: ;
+  margin-right: 150px;
+  margin-left: 0px;
+  font-style: italic;
+  font-size: 30px;
+  padding: 48px
+}
+
+.dropdown{
+  padding: 10px
+}
+
+nav {
+  background-color: royalblue;
+  color: royalblue;
+}
